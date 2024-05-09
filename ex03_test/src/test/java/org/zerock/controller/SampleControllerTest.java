@@ -56,7 +56,7 @@ public class SampleControllerTest {
 		  Ticket ticket = new Ticket();
 		  ticket.setTno(123);
 		  ticket.setOwner("Admin");
-		  ticket.setGrade("AAA");
+		  ticket.setGrade("AAAA");
 		  
 		  String jsonStr = new Gson().toJson(ticket);
 		  
